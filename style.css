@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #85d7ff, #6699ff); /* Light blue gradient background */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 80%;
+}
+
+.dark-theme-window {
+    background-color: #333; /* Dark theme background */
+    color: #fff; /* Text color */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Shadow effect */
+}
